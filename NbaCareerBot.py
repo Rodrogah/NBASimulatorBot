@@ -69,7 +69,7 @@ def mensagem(update: Update, context: CallbackContext):
 
 # Configuração do bot
 def main():
-    updater = Updater("YOUR_API_KEY", use_context=True)
+    updater = Updater("8016591601:AAGc6f276J2aWWS0ti_JV5uo7K8ouwvWhno", use_context=True)
     dp = updater.dispatcher
     
     dp.add_handler(CommandHandler("start", start))
