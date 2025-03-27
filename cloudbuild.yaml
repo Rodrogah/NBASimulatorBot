@@ -1,5 +1,5 @@
 steps:
   - name: 'gcr.io/cloud-builders/docker'
-    args: ['build', '-t', 'gcr.io/nbasimulatorbot/bot', '.']
+    args: ['build', '-t', 'gcr.io/nba-simulator/bot', '.']
 images:
   - 'gcr.io/nbasimulatorbot/bot'
