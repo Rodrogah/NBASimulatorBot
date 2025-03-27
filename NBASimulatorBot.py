@@ -4,8 +4,3 @@ git add .                                     # Adicione todos os arquivos
 git commit -m "Primeiro commit - Código do bot Telegram"  # Faça o commit
 git remote add origin https://github.com/seu_usuario/telegram-bot.git  # Conecte ao repositório do GitHub
 git push -u origin master                     # Envie para o GitHub
-git add Procfile runtime.txt
-pip install -r requirements.txt
-git add .
-git commit -m "Adiciona Procfile, runtime.txt e setup.py"
-git push
