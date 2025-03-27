@@ -1,3 +1,12 @@
+brew install nixpacks
+nixpacks build ./path/to/app --name my-app
+nixpacks build ./path/to/app --name my-app \
+                             --pkgs cowsay \
+                             --build-cmd ./build.sh \
+                             --start-cmd "echo hello | cowsay"
+docker run -it my-app
+
+
 cd C:\Users\RoDar\OneDrive\Documentos\NBASimulatorBot  # Acesse a pasta onde os arquivos estão
 git init                                      # Inicialize o repositório Git
 git add .                                     # Adicione todos os arquivos
